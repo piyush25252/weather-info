@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherInfo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Full container -->
+    <div class="full-div">
+        <!-- Navbar -->
+        <div class="navbar">
+            <h1>WeatherInfo</h1>
+        </div>
+        
+        <!-- Subheading -->
+        <p class="subheading">This is just a practice project for learning APIs</p>
+
+        <!-- Search Bar -->
+        <div class="search-bar align">
+            <input class="input-bar" type="text" id="search" placeholder="Search for a city">
+            <button class="search-button"><i class="fas fa-search"></i></button>
+        </div>
+        
+        <!-- Content Area -->
+        <div class="content">
+            <div class="temp">     
+                <h2 class="temperature">Temperature</h2>
+                <div class="city-country">
+
+                    <p class="city-name">City</p>
+                    <div style="display: flex; justify-content: center; " class="country">
+                        <p class="country-name">Country</p>
+                        <img class="country-flag" alt="" height="30rem" width="55rem">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript file -->
+    <script src="app.js"></script>
+</body>
+</html>

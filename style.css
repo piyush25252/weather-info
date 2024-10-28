@@ -1,0 +1,117 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and HTML */
+body, html {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #060606;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Main Container */
+.full-div {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  color: #A7A7A7;
+  margin-bottom: 10px;
+}
+
+/* Subheading */
+.subheading {
+  color: #CCCCCC;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-bar {
+  height: 2.5rem;
+  width: 70%;
+  border-radius: 20px;
+  padding: 0 15px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  color: black;
+}
+
+.search-button {
+  background-color: #F5F5B9;
+  color: black;
+  height: 2.5rem;
+  width: 2.5rem;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-button:active {
+  background-color: #3F77E6;
+}
+
+/* Content */
+.content {
+  height: 300px;
+  width: 100%;
+  max-width: 350px;
+  background-color: #A7CFF5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.content:hover {
+  background-color: white;
+}
+
+.temp {
+  color: black;
+}
+
+.temperature {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.city-country {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.city-name,
+.country-name {
+  margin: 5px 0;
+}
